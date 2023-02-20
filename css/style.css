@@ -63,7 +63,8 @@ footer {
   background: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: calc(100vh - 80px); }
+  height: calc(700vh - 60px);
+  text-decoration: none; }
 
 @media (max-width: 952px) {
   .enlace {
