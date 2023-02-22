@@ -105,3 +105,6 @@ footer {
     color: #f01313; }
   #check:checked ~ ul {
     left: 0; } }
+
+footer {
+  background-color: red; }
