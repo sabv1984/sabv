@@ -8,12 +8,13 @@
 
 .contenedor {
   margin: 5%;
-  height: 80vh;
+  height: 50vh;
   display: flex;
   font-family: sans-serif;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  min-width: 200px; }
 
 .conteiner {
   width: 99vw;
