@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="descriptions" content="Trabaja mejor!! Trabaja en onelevelmore">
     <meta name="keywords" content="Trabajo One Level More Consulta Tienda"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.font-awesome.com/releases/v5.8.1/css/all.css"
+     integrity="sha384-50oBUHEmvpQ+1lw4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+     crossorigin="anonymous"> 
     <link 
       rel="shortcut icon" 
       href="../images/ImagenPrincipal.jpeg"
@@ -33,24 +39,55 @@
     </ul>
   </nav>
   </header>
-    <main>
-      <form action="" method="post">
-      <div><label for="nombre">Nombre y Apellido</label>
-      <input type="text" id="nombre" required></div>
-      <div><label for="edad">Edad</label>
-      <input type="text" id="edad" required></div>
-      <div><label for="documento">DNI</label>
-      <input type="text" id="numero"required></div>
-      <div><label for="email">E-mail</label>
-      <input type="email" id="email" required></div>
-      <div><label for="telefono">Telefono</label>
-      <input type="tel" id="telefono" required></div>
-      <p>¿Porque quiere trabajar en nuestra empresa?</p>
-      <textarea name="" id="" cols="30" rows="15"></textarea>
-      <input id="enviar" type="submit" value="Enviar"/>
-      <input id="reset" type="reset" value="Limpiar"/></form>
-    </main>
-    <footer class="pie-pagina">
+
+  <main>
+    <div class="content">
+      <h1 class="logo">Trabaja con Nosotros<span></span></h1>
+      <div class="contact">
+        <div class="contact-form">
+          <h1></h1>
+          <form action=""></form>
+          <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="" id="nombre" required>
+          </p>
+          <p>
+            <label for="email">Mail</label>
+            <input type="email" name="" id="email" required>
+          </p>
+          <p>
+            <label for="telefono">Telefono</label>
+            <input type="tel" name="" id="telefono" required>
+          </p>
+          <p>
+            <label>Titulo</label>
+            <input type="text" name="Asunto">
+          </p>
+          <p class="Block">¿Porque quiere trabajar en nuestra empresa?
+            <textarea name="Mensaje" id="" cols="" rows="3"></textarea>
+          </p>
+          <p class="Block">
+          <button type="submit">
+            Enviar
+          </button> 
+          </p>      
+        </div>
+        <div class="contact-info">
+          <h2>Mas Informacion</h2>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> Av. Cordoba 4495</li>
+            <li><i class="fas fa-phone"></i> 01165 933 615</li>
+            <li><i class="fas fa-envelope-open-text"></i>duda@1L.com.ar</li> 
+          </ul>
+          <p>One Level More no es solo una tienda deportiva. Nos enfocamos en brindar la mejor atencion no solo en 
+             la venta, sino tambien en la post venta.</p>
+          <p>Nos destacamos en atender a nuestros clientes, no en vender por vender.</p>
+          <p>www.onelevelmore.ar</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="pie-pagina">
       <div class="grupo-1">
         <div class="box">
           <figure><a><img src="../images/ImagenPrincipal.jpeg"></a></figure>
