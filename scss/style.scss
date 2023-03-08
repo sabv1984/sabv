@@ -49,10 +49,7 @@ main {
 
   .contact-form {
     background: #222222;
-    padding: 1em;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+    padding: 1em;}
 
   .contact-form .Block {
     grid-column: 1 / 3;
