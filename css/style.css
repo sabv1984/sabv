@@ -9,6 +9,16 @@ footer {
   list-style: none;
   box-sizing: border-box; }
 
+nav {
+  background: brown;
+  height: 70px;
+  width: 100%; }
+
+img {
+  width: 95%;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5); }
+
 .contenedor {
   margin: 8%;
   display: flex;
@@ -107,16 +117,6 @@ main {
   min-width: 200px;
   margin: auto; }
 
-img {
-  width: 95%;
-  border-radius: 10px;
-  box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5); }
-
-nav {
-  background: brown;
-  height: 70px;
-  width: 100%; }
-
 .enlace {
   position: absolute;
   padding: 20px 50px; }
@@ -130,7 +130,7 @@ iframe {
 
 nav ul {
   float: right;
-  margin-right: 5px; }
+  margin-right: 3px; }
 
 nav ul li {
   display: inline-block;
@@ -138,19 +138,22 @@ nav ul li {
 
 nav ul li a {
   font-size: 20px;
-  padding: 10px 40px;
+  padding: 10px 30px;
   border-radius: 3px;
   text-transform: uppercase;
   color: white; }
 
 .checkbtn {
-  font-size: 30px;
+  font-size: 20px;
   color: black;
   float: right;
   line-height: 80px;
   margin-right: 40px;
   cursor: pointer;
   display: none; }
+
+.pie-pagina .grupo-1 .box figure img {
+  width: 150px; }
 
 .pie-pagina .grupo-1 {
   width: 100%;
@@ -167,9 +170,6 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center; }
-
-.pie-pagina .grupo-1 .box figure img {
-  width: 150px; }
 
 .pie-pagina .grupo-1 .box a {
   margin-bottom: 10px;
@@ -211,7 +211,7 @@ nav ul li a {
   height: calc(700vh - 60px);
   text-decoration: none; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1020px) {
   .checkbtn {
     display: block; }
   ul {
@@ -251,6 +251,3 @@ nav ul li a {
     grid-template-columns: 2fr 1fr; }
   .contact > * {
     padding: 2em; } }
-
-footer {
-  background-color: brown; }
